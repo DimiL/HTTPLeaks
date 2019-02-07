@@ -57,7 +57,6 @@
 <!-- 
 %Links 
 -->
-<link rel="icon" href="https://leaking.via/link-icon" />
 <link rel="canonical" href="https://leaking.via/link-canonical" />
 <link rel="import" href="https://leaking.via/link-import" />
 <link rel="dns-prefetch" href="https://leaking.via/link-dns-prefetch" />
@@ -84,7 +83,6 @@ Use a network sniffer to detect it.
 <link rel="alternate stylesheet" href="https://leaking.via/link-alternate-stylesheet" />
 <link rel="amphtml" href="https://leaking.via/link-amphtml">
 <link rel="appendix" href="https://leaking.via/link-appendix" />
-<link rel="apple-touch-icon" href="https://leaking.via/link-apple-touch-icon">
 <link rel="apple-touch-startup-image" href="https://leaking.via/link-apple-touch-startup-image">
 <link rel="archives" href="https://leaking.via/link-archives" />
 <link rel="author" href="https://leaking.via/link-author" />
@@ -149,13 +147,11 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping
 <img dynsrc="https://leaking.via/img-dynsrc">
 <img lowsrc="https://leaking.via/img-lowsrc">
 
-<image src="https://leaking.via/image-src">
 <image href="https://leaking.via/image-href">
 
 <picture>
     <source srcset="https://leaking.via/picture-source-srcset">
 </picture>
-<img srcset=",,,,,https://leaking.via/img-srcset">
 
 <img src="#" longdesc="https://leaking.via/img-longdesc">
 <!-- longdesc works on Firefox but requires right-click, "View Description" -->
@@ -179,7 +175,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping
 <!--
 %Object & Embed
 -->
-<object data="https://leaking.via/object-data"></object>
 <object type="text/x-scriptlet" data="https://leaking.via/object-data-x-scriptlet"></object>
 <object movie="https://leaking.via/object-movie" type="application/x-shockwave-flash"></object>
 <object movie="https://leaking.via/object-movie">
@@ -205,13 +200,11 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping
 <!--
 %Frames
 -->
-<iframe src="data:image/svg+xml,<svg%20xmlns='%68ttp:%2f/www.w3.org/2000/svg'%20xmlns:xlink='%68ttp:%2f/www.w3.org/1999/xlink'><image%20xlink:hr%65f='%68ttps:%2f/leaking.via/svg-via-data'></image></svg>"></iframe>
 <iframe srcdoc="<img src=https://leaking.via/iframe-srcdoc-img-src>"></iframe>
 <frameset>
     <frame src="https://leaking.via/frame-src"></frame>
 </frameset>
 <iframe src="view-source:https://leaking.via/iframe-src-viewsource"></iframe>
-<iframe src="javascript:'&lt;img src=https://leaking.via/iframe-javascript-src&gt;'"></iframe>
 <iframe src="javascript:atob('PGltZyBzcmM9Imh0dHBzOi8vbGVha2luZy52aWEvaWZyYW1lLWphdmFzY3JpcHQtc3JjLTMiPg==')"></iframe>
 
 <!-- 
@@ -228,9 +221,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping
 <style>
     /*# sourceMappingURL=https://leaking.via/css-source-map */
 </style>
-<style>
-    a:after {content: url(https://leaking.via/css-after-content)}
-</style>
 <a href="#">ABC</a>
 <style>
     big {
@@ -238,28 +228,16 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping
         list-style-image: url(https://leaking.via/css-list-style-image);
         background: url(https://leaking.via/css-background);
         -moz-border-image: url(https://leaking.via/css--moz-border-image-alias);
-        border-image-source: url(https://leaking.via/css-border-image-source);
     }
 </style>
 <big>DEF</big>
-<style>
-    /* Basic font-face */
-    @font-face {
-        font-family: leak;
-        src: url(https://leaking.via/css-font-face-src);
-    }
 
-    big {
-        font-family: leak;
-    }
-</style>
 <big>GHI</big>
 <svg>
     <style>
         circle {
             fill: url(https://leaking.via/svg-css-fill#foo);
             mask: url(https://leaking.via/svg-css-mask#foo);
-            -webkit-mask: url(https://leaking.via/svg-css--webkit-mask#foo);
             filter: url(https://leaking.via/svg-css-filter#foo);
             clip-path: url(https://leaking.via/svg-css-clip-path#foo);
         }
@@ -285,11 +263,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping
 <b style="
         list-style: url(https://leaking.via/inline-css-list-style);
         list-style-image: url&#40;https://leaking.via/inline-css-list-style-image&#41;;
-        background: url&#x28;https://leaking.via/inline-css-background&#x29;;
-        background-image: url&lpar;https://leaking.via/inline-css-background-image&rpar;;
         border-image: url(https://leaking.via/inline-css-list-style-image);
-        -moz-border-image: url(https://leaking.via/inline-css--moz-background-image-alias);
-        shape-outside: url(https://leaking.via/inline-css-shape-outside);
 ">MNO</b>
 
 <svg>
@@ -336,22 +310,12 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping
 
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <image xmlns:xlink="http://www.w3.org/1999/xlink">
-        <set attributeName="xlink:href" begin="0s" to="https://leaking.via/svg-image-set" />
-    </image>
-</svg>
-
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <image xmlns:xlink="http://www.w3.org/1999/xlink">
         <animate attributeName="xlink:href" begin="0s" from="#" to="https://leaking.via/svg-image-animate" />
     </image>
 </svg>
 
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <a xlink:href="https://leaking.via/svg-a-text/"><text transform="translate(0,20)">CLICKME</text></a>
-</svg>
-
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <rect cursor="url(https://leaking.via/svg-cursor),auto" />
 </svg>
 
 <svg>
